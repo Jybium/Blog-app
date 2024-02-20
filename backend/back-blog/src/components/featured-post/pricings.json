@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_featured_post_pricings",
+  "info": {
+    "displayName": "Pricings",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.pricing",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "sideNote": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

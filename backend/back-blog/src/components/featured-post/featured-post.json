@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_featured_post_featured_posts",
+  "info": {
+    "displayName": "FeaturedPost"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

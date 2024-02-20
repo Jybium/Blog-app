@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "CTAShort": {
+      "type": "string",
+      "required": true
+    },
+    "CTALong": {
+      "type": "text",
+      "required": true
+    },
+    "CTAImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "CTAButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.links"
+    },
+    "FeaturedPost": {
+      "displayName": "FeaturedPost",
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-post.featured-post"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "homePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header"
+    },
+    "CTA": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_featured_post_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-post.featured-post"
+    },
+    "reviews": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": true,
+      "component": "review.review"
+    }
+  }
+}

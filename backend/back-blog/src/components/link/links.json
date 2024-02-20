@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_link_links",
+  "info": {
+    "displayName": "Links",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

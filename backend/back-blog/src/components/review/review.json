@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_review_reviews",
+  "info": {
+    "displayName": "Review",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Testimony": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

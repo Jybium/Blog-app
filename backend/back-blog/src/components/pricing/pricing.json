@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

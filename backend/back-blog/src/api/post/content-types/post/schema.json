@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "Content": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Tag": {
+      "type": "string"
+    },
+    "Categories": {
+      "type": "enumeration",
+      "enum": [
+        "Sport",
+        "Lifestyle",
+        "News",
+        "Technology",
+        "Finance",
+        "DIY",
+        "Education",
+        "Others"
+      ],
+      "required": true
+    },
+    "Views": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

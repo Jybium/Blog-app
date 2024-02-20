@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_accordion_accordions",
+  "info": {
+    "displayName": "Accordion"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    },
+    "Answer": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}
